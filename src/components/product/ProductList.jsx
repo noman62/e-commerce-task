@@ -1,16 +1,14 @@
-// Medicines.js
 import { useContext, useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
-import MedicinesData from '../MedicinesData/MedicinesData'
+import ProductsData from '../ProductsData/ProductsData'
 import { MyContext } from '../CartContext/CartContext'
 
 const ProductList = () => {
-  
-  const [medicines, setMedicines] = useState([])
+  const [products, setProducts] = useState([])
   const { setCart } = useContext(MyContext)
 
-  useEffect(() => setMedicines(MedicinesData), [])
+  useEffect(() => setProducts(ProductsData), [])
 
   const addToCart = medicine => {
     setCart(prevCart => {
@@ -65,7 +63,7 @@ const ProductList = () => {
           </button>
         </div>
         <div className='grid gap-5 lg:grid-cols-5 sm:max-w-sm sm:mx-auto lg:max-w-full'>
-          {medicines.map(medicine => (
+          {products.map(medicine => (
             <div
               key={medicine.id}
               className='overflow-hidden rounded bg-white'

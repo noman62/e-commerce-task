@@ -1,5 +1,4 @@
-const MedicinesData = [
-  // Men's Fashion
+const ProductsData = [
   {
     name: "Stylish Men's Shirt",
     price: 40,
@@ -21,8 +20,6 @@ const MedicinesData = [
       'https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     selectedQuantity: 0
   },
-
-  // Women's Fashion
   {
     name: "Elegant Women's Dress",
     price: 50,
@@ -44,8 +41,6 @@ const MedicinesData = [
       'https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     selectedQuantity: 0
   },
-
-  // Electronics
   {
     name: 'Smartphone XYZ',
     price: 500,
@@ -76,4 +71,4 @@ const MedicinesData = [
   }
 ]
 
-export default MedicinesData
+export default ProductsData
