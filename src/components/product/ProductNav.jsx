@@ -2,12 +2,11 @@
 
 const ProductNav =() => {
   return (
-    <nav className='  bg-indigo-700  shadow py-4 '>
+    <nav className='  bg-indigo-700  shadow py-2 '>
       <div className=' '>
-        <div className='flex ml-8  h-16'>
+        <div className='flex ml-8'>
           <div>
-            <p className='text-white'>Home /Pharmacy</p>
-            <p className='text-white font-bold text-xl'> All Pharmacy </p>
+            <p className='text-white'>Home / Checkout</p>
           </div>
         </div>
       </div>

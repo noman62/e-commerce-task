@@ -1,5 +1,4 @@
-// Cart.js
-import  { useContext } from 'react';
+import { useContext } from 'react';
 import ProductNav from '../product/ProductNav';
 import { MyContext } from '../CartContext/CartContext';
 import CartView from './CartView';
@@ -23,17 +22,13 @@ const Cart = () => {
   return (
     <div className='bg-gray-50 mt-16'>
       <ProductNav />
-      <div className=''>
-        <div className='flex shadow-sm mx-20 my-10'>
-          <h2>Your Cart</h2>
-          <CartView
-            cart={cart}
-            onQuantityChange={handleQuantityChange}
-            onRemoveItem={handleRemoveItem}
-          />
-          {/* Add the CheckoutView component or additional cart-related content */}
-          <CheckoutView cart={cart} />
-        </div>
+      <div className='flex flex-col md:flex-row justify-center items-start mx-4 md:mx-10 lg:mx-20'>
+        <CartView
+          cart={cart}
+          onQuantityChange={handleQuantityChange}
+          onRemoveItem={handleRemoveItem}
+        />
+        <CheckoutView cart={cart} />
       </div>
     </div>
   );
