@@ -1,10 +1,37 @@
-# React + Vite
+# Your React E-commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the documentation for your React E-commerce application. This README file will guide you through the setup, configuration, and usage of the application.
 
-Currently, two official plugins are available:
+## Table of Contents
+1. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+2. [Usage](#usage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# shopNest
-# e-commerce-task
+## Getting Started
+
+### Prerequisites
+
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/noman62/your-ecommerce-app.git
+   
+  ### Change into the project directory:
+  #### cd your-ecommerce-app
+  
+### Install dependencies:
+#### npm install   # or yarn install
+
+### Usage 
+#### npm start   # or yarn start
+##### This will open the application in your default web browser at http://localhost:5173/.
+### Live site -> https://e-commerce-task-b8qtxujvu-noman62.vercel.app/
